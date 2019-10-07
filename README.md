@@ -31,9 +31,13 @@ Be aware that each API has limited amount of calls per minute. You are notified 
 
 ## Examples
 
-![AI API proof of concept with PHP](/showcase/image-colorization-PHP.gif)
-![AI API proof of concept with PHP](/showcase/image-colorgram-PHP.png)
-![AI API proof of concept with PHP](/showcase/image-asciify-Python.png)
+Image colorization API + Cocoen (PHP)
+
+![AI API proof of concept with PHP](/showcase/image-colorization.cocoen.gif)
+
+Asciify (Python)
+
+![AI API proof of concept with Python](/showcase/image-asciify-Python.png)
 
 
 ## Contribute ! 
