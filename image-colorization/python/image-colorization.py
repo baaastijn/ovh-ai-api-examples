@@ -13,7 +13,7 @@ payload = {
 }
 
 headers = {
-  'X-OVH-Api-Key': "b4944fab-c885-4fbf-91b4-16c5d0dbd4b1",
+  'X-OVH-Api-Key': "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxx",
   'accept': "image/jpg",
   'content-type': "application/json",
   'x-pretty-print': "4"
@@ -26,7 +26,7 @@ status = response.status_code
 if status == 200:
   with open('colorized.jpg', 'wb') as out_file:
     shutil.copyfileobj(response.raw, out_file)
-      del response
+    del response
     print("Job done !")
 
 else:
